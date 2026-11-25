@@ -1,0 +1,20 @@
+{
+  "name": "playwright_javascript_2026",
+  "version": "1.0.0",
+  "description": "Playwright JavaScript Page Object Model automation framework",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "report:html": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.10",
+    "allure-playwright": "^3.15.0"
+  }
+}
