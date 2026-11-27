@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Playwright JavaScript Page Object Model automation framework",
   "scripts": {
-    "test": "playwright test",
-    "test:headed": "playwright test --headed",
-    "test:chromium": "playwright test --project=chromium",
-    "report:html": "playwright show-report"
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",
